@@ -126,4 +126,24 @@ $ docker container run --name api --restart=on-failure ken/api
 ```
 
 
+Les commandes de base
+| run     | Création d'un container  |
+|---------|--------------------------|
+| ls      | Liste des containers     |
+| inspect | Détails d'un container   |
+| logs    | Visualisation des logs   |
+| exec    | Lancement d'un processus |
+| stop    | Arrêt d'un container     |
+| rm      | Suppression              |
+
+
+Exercice : https://gitlab.com/lucj/docker-exercices/-/blob/master/05.Containers/base-commands.md
+
+# Une commande utile 
+```
+docker run -it -privileged --pid=host debian nsenter -t 1 -m -u -n -i sh
+```
+
+
+
 
