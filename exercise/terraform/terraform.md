@@ -1,5 +1,7 @@
 # Terraform 
 
+https://gitlab.com/lucj/docker-exercices/-/blob/master/04.Plateforme/terraform.md
+
 ## pre-requis
 
 create account at digitalocean.com
