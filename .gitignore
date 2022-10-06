@@ -1,4 +1,6 @@
 .DS_Store
 /exercise/terraform/.env
 /exercise/terraform/terraform.tfstate
+*.png
+
 
