@@ -58,6 +58,12 @@ Se poser là ou se trouve le fichier docker-compose.yml
 ```
 docker-compose up -d
 ```
+Si pour un fichier docker-compose spécifique:
+```
+docker-compose -f [nomdufichier.yml] up -d 
+```
+ 
+
 
 ##### Le binaire docker-compose
 
@@ -71,3 +77,13 @@ docker-compose up -d
 | scale         | Modification du nombre de container pour un service  |
 | ps            | Liste les containers de l'application                |
 
+
+
+## Exemple - Voting App 
+
+* https://github.com/dockersamples/example-voting-app
+* Utilisée pour des démos / présentations 
+* 5 services 
+    * Nodejs / Python / .NET 
+    * Redis / Postgres
+    
