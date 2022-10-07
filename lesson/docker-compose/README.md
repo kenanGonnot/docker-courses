@@ -87,3 +87,9 @@ docker-compose -f [nomdufichier.yml] up -d
     * Nodejs / Python / .NET 
     * Redis / Postgres
     
+
+## Autres exercices - docker compose 
+
+* https://gitlab.com/lucj/docker-exercices/-/blob/master/10.Compose/harbor.md 
+* https://gitlab.com/lucj/docker-exercices/-/blob/master/10.Compose/wordpress.md
+
